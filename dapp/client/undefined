@@ -1,0 +1,116 @@
+{
+	"offersContract": "0xBFba9DbbBbB69DB05EEEA44473F3E473016F3C07",
+	"offerProposedEventJsonInterface": {
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "proposedBy",
+				"type": "address"
+			},
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "proposerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "offerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "offerId",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "instruments",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "features",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "termsnconditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string",
+						"name": "offerType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "offerStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxOfferCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "couponCode",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxBenefitAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "sku",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minOrderValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minQtyValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "acceptedBy",
+						"type": "address[]"
+					}
+				],
+				"indexed": false,
+				"internalType": "struct Common.Offer",
+				"name": "offer",
+				"type": "tuple"
+			}
+		],
+		"name": "offerProposed",
+		"type": "event",
+		"signature": "0x306e516a56eddc4991ced668349e8fe57e76063215e9b215bf6b06ad978d0532"
+	},
+	"offerProposedEventOptions": {
+		"address": "0xBFba9DbbBbB69DB05EEEA44473F3E473016F3C07",
+		"topics": [
+			"0x306e516a56eddc4991ced668349e8fe57e76063215e9b215bf6b06ad978d0532"
+		]
+	}
+}

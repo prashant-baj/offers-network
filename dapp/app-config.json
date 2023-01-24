@@ -1,0 +1,47 @@
+{
+    "ownerAddress": "0xb7e38ea18190dbb96d3dee10b99576ea6ca73d22",
+    "privateKey": "0x4d69f48fa7642417db1baade38dabb5d5376acf18c72fb1fc60e1a0a2ef30780",
+    "tesseraPubKey": "ToHz50bRT5BvRvVZwo1+GZmcNqIOQN8GsxkcPTeYcWk=",    
+    "nodeAddress": "20.219.178.207",
+    "deployedMembersContractsPath": "../deployedMembersContracts.json",
+    "deployedOffersContractsPath": "../deployedOffersContracts.json",
+    "memberContractABIPath": "../build/contracts/Members.json",
+    "offersContractABIPath": "../build/contracts/Offers.json",
+    "peers": [
+        {
+            "name":"network-leader",
+            "businessName":"Payments Corporation of India",
+            "accountAddress":"0xb7e38ea18190dbb96d3dee10b99576ea6ca73d22",
+            "privateKey":"4d69f48fa7642417db1baade38dabb5d5376acf18c72fb1fc60e1a0a2ef30780",
+            "tesseraPubKey":"ToHz50bRT5BvRvVZwo1+GZmcNqIOQN8GsxkcPTeYcWk="
+        },
+        {
+            "name":"manufacturer",
+            "businessName":"Mapple",
+            "accountAddress":"0x5c50464d620d773a175eff7a76e5a2c29ef58b74",
+            "privateKey":"f6d2f0ea46b316fe3dfb1ab90358664f43e2010cb3bc0d8ad4b1d3f7446e1c47",
+            "tesseraPubKey":"7IvRjIz9z2+ljEAGsyxZ9kOry2PrUcypVjnmbNDPuRg="
+        },
+        {
+            "name":"upi-issuer",
+            "businessName":"TeePay",
+            "accountAddress":"0x598b991ed10eab4077b848a69e9bfe84f0e25fee",
+            "privateKey":"0x3d86ab7d07f9be127686072d56d2022d689f764fbdd7e28ca7cc4e7420c55f8c",
+            "tesseraPubKey":"Io2QwxGCrkjVaQN0ocNlH+HdNzqCFcdQhYoCTHAK+jI="
+        },
+        {
+            "name":"merchant",
+            "businessName":"Chroma",
+            "accountAddress":"0x5c50464d620d773a175eff7a76e5a2c29ef58b74",
+            "privateKey":"0x9b486e8abd28fae2af4b15b3937bf9d513bb5304d49359a0d52cb4fc00639d2f",
+            "tesseraPubKey":"6YlNKBrOYvrTI2InKPeLM48AOnZ07PmoDYXF/nOq/jQ="
+        },
+        {
+            "name":"acquirer",
+            "businessName":"TeePay",
+            "accountAddress":"0xcddd7841713e3c68eca827dacfa0a77ce7aa41b7",
+            "privateKey":"0x4dc5e5c355637d0c236b0a6a2c29b46c98521c6d6041ed9188ff4d2feeb011bf",
+            "tesseraPubKey":"3vgAE2cdreYxb0LklfgvpN3aZ3OMrz2ovr8GBEYdjlY="
+        }
+    ]
+}

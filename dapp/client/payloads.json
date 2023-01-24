@@ -1,0 +1,66 @@
+{  
+    
+    "addMember": [{
+        "nodeName":"network-leader",
+        "memberAddress": "0xb7e38ea18190dbb96d3dee10b99576ea6ca73d22",
+        "entityName": "Universal Payments Corporation",
+        "privacyAddress": "ToHz50bRT5BvRvVZwo1+GZmcNqIOQN8GsxkcPTeYcWk=",
+        "memberType": "Network",
+        "memberStatus": "Active"
+    },
+    {
+        "nodeName":"manufacturer",
+        "memberAddress": "0x5c50464d620d773a175eff7a76e5a2c29ef58b74",
+        "entityName": "Mapple",
+        "privacyAddress": "7IvRjIz9z2+ljEAGsyxZ9kOry2PrUcypVjnmbNDPuRg=",
+        "memberType": "OEM",
+        "memberStatus": "Active"
+    },
+    {
+        
+        "nodeName":"upi-issuer",
+        "memberAddress": "0x598b991ed10eab4077b848a69e9bfe84f0e25fee",
+        "entityName": "TeePay",
+        "privacyAddress": "Io2QwxGCrkjVaQN0ocNlH+HdNzqCFcdQhYoCTHAK+jI=",
+        "memberType": "UPIIssuer",
+        "memberStatus": "Active"
+    },
+    {
+        "nodeName":"merchant",
+        "memberAddress": "0x5c50464d620d773a175eff7a76e5a2c29ef58b74",
+        "entityName": "Chroma",
+        "privacyAddress": "6YlNKBrOYvrTI2InKPeLM48AOnZ07PmoDYXF/nOq/jQ=",
+        "memberType": "Merchant",
+        "memberStatus": "Active"
+    },
+    {
+        "nodeName":"acquirer",
+        "memberAddress": "0xcddd7841713e3c68eca827dacfa0a77ce7aa41b7",
+        "entityName": "TeePay",
+        "privacyAddress": "3vgAE2cdreYxb0LklfgvpN3aZ3OMrz2ovr8GBEYdjlY=",
+        "memberType": "Acquirer",
+        "memberStatus": "Active"
+    }
+    ],
+    "proposeOffer": {
+        "proposerAddress": "0x5c50464d620d773a175eff7a76e5a2c29ef58b74",
+        "offerName": "5% Flat discount on UPI payment",
+        "offerId": "1007",
+        "instruments": ["UPI"],
+        "features": ["Avail 5% discount on any product","Available only till 31st Dec"],
+        "termsnconditions": ["Available on only paid orders and not available on COD","Only above order value of Rs 1000"],
+        "offerType": "Percent-Discount",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-31",
+        "offerStatus": "Active",
+        "maxOfferCount": "100",
+        "couponCode": "UPI05",
+        "maxBenefitAmount": 2000,
+        "subventionScheme": [[1,3,2],[50,20,30]],
+        "sku": [],
+        "minOrderValue": "1000",
+        "minQtyValue": "1",
+        "acceptedBy": ["0x5c50464d620d773a175eff7a76e5a2c29ef58b74"]
+    }  
+    
+}

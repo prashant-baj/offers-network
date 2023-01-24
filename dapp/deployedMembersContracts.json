@@ -1,0 +1,70 @@
+{
+	"membersContract": "0xE0547ffdEA059B0d32d0D009796bfbC1000fd408",
+	"memberAddedEventJsonInterface": {
+		"anonymous": false,
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "nodeName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "memberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "entityName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "privacyAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "memberType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "memberStatus",
+						"type": "string"
+					}
+				],
+				"indexed": false,
+				"internalType": "struct Common.Member",
+				"name": "member",
+				"type": "tuple"
+			}
+		],
+		"name": "memberAdded",
+		"type": "event",
+		"signature": "0xd016b41c35d75259d8f5d6654f627ff6401c9c5472ef2f02bc076b9456370eb9"
+	},
+	"memberAddedEventOptions": {
+		"address": "0xE0547ffdEA059B0d32d0D009796bfbC1000fd408",
+		"topics": [
+			"0xd016b41c35d75259d8f5d6654f627ff6401c9c5472ef2f02bc076b9456370eb9"
+		]
+	},
+	"transactionReceipt": {
+		"blockHash": "0x582872561d06f4ba1132f24dbdc23eaeaf895e316387814178bf0e05ac7bb8a7",
+		"blockNumber": 10036,
+		"contractAddress": "0xE0547ffdEA059B0d32d0D009796bfbC1000fd408",
+		"cumulativeGasUsed": 2102450,
+		"from": "0xb7e38ea18190dbb96d3dee10b99576ea6ca73d22",
+		"gasUsed": 2102450,
+		"effectiveGasPrice": 0,
+		"logs": [],
+		"logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+		"status": true,
+		"to": null,
+		"transactionHash": "0x110495b0fd0364e828306acfc16cedc64097d9340b76aece623e754bb56b2c49",
+		"transactionIndex": 0
+	}
+}

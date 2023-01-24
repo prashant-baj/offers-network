@@ -1,0 +1,266 @@
+{
+	"offersContract": "0x7F4a46d2298aE9938528912881dbd053aAbc56f5",
+	"offerProposedEventJsonInterface": {
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "message",
+				"type": "string"
+			},
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "proposerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "offerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "offerId",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "instruments",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "features",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "termsnconditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string",
+						"name": "offerType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "offerStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxOfferCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "couponCode",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxBenefitAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[][]",
+						"name": "subventionScheme",
+						"type": "uint256[][]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "sku",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minOrderValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minQtyValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "acceptedBy",
+						"type": "address[]"
+					}
+				],
+				"indexed": false,
+				"internalType": "struct Common.Offer",
+				"name": "offer",
+				"type": "tuple"
+			},
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "memberType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "percentShare",
+						"type": "uint256"
+					}
+				],
+				"indexed": false,
+				"internalType": "struct Offers.SubventionShare[]",
+				"name": "subventionScheme",
+				"type": "tuple[]"
+			}
+		],
+		"name": "offerProposed",
+		"type": "event",
+		"signature": "0xcb106d4795f668b3eda56e94b964ddcbd19fa41b4172d87e8fa824bc22e39c18"
+	},
+	"offerProposedEventOptions": {
+		"address": "0x7F4a46d2298aE9938528912881dbd053aAbc56f5",
+		"topics": [
+			"0x57fcbeb0415eed13309380ad2cac2c5d7c9876ccbe2a992504b09d5f479aa626"
+		]
+	},
+	"offerAcceptedEventJsonInterface": {
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "message",
+				"type": "string"
+			},
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "proposerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "offerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "offerId",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "instruments",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "features",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "termsnconditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string",
+						"name": "offerType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "offerStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxOfferCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "couponCode",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxBenefitAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[][]",
+						"name": "subventionScheme",
+						"type": "uint256[][]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "sku",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minOrderValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minQtyValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "acceptedBy",
+						"type": "address[]"
+					}
+				],
+				"indexed": false,
+				"internalType": "struct Common.Offer",
+				"name": "offer",
+				"type": "tuple"
+			}
+		],
+		"name": "offerAccepted",
+		"type": "event",
+		"signature": "0x57fcbeb0415eed13309380ad2cac2c5d7c9876ccbe2a992504b09d5f479aa626"
+	},
+	"transactionReceipt": {
+		"blockHash": "0xd141f00dc0885341f2ebdb43b0d189ba9a2f8f1ea8077f2d240b4d7bb6fc318f",
+		"blockNumber": 10037,
+		"contractAddress": "0x7F4a46d2298aE9938528912881dbd053aAbc56f5",
+		"cumulativeGasUsed": 4175586,
+		"from": "0xb7e38ea18190dbb96d3dee10b99576ea6ca73d22",
+		"gasUsed": 4175586,
+		"effectiveGasPrice": 0,
+		"logs": [],
+		"logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+		"status": true,
+		"to": null,
+		"transactionHash": "0xd4611c101cc60ee9fdedb30c3de7d7fac3d1d436339be468c67d29c99659e81b",
+		"transactionIndex": 0
+	}
+}
